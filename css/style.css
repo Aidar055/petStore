@@ -1,0 +1,208 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Inconsolata:wght@500&family=Inter:wght@100;200;400&family=Josefin+Sans&family=Kdam+Thmor+Pro&family=Montserrat:wght@400;500&family=Mulish:ital,wght@1,600&family=Playfair+Display:wght@400;500&family=Roboto:wght@500;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #91aff5;
+}
+.container {
+  width: 80%;
+  margin-left: 10%;
+}
+/* ? header start */
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+.header__title__icon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.header__title__icon span {
+  color: var(--w, #fff);
+  font-family: Roboto;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 154px;
+  margin: 0px 0px 0px 24px;
+}
+.header__inputBar {
+  display: flex;
+  align-items: center;
+}
+.header__inputBar img {
+  position: absolute;
+  margin: 3px 0px 0px 10px;
+}
+.header__inputBar input {
+  display: inline-flex;
+  padding: 8px 88px 8px 20px;
+  justify-content: flex-end;
+  align-items: flex-end;
+  gap: 15px;
+  border-radius: 77px;
+  background: rgba(255, 255, 255, 0.2);
+  border: none;
+}
+.header__inputBar input::placeholder {
+  color: var(--w, #fff);
+  font-family: RF Tone;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-left: 30px;
+}
+.header__contact {
+  display: flex;
+  align-items: center;
+}
+.header__contact span {
+  color: var(--w, #fff);
+  font-family: RF Tone;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 19.2px */
+  /* margin-right: 30px; */
+}
+.header__contact img {
+  margin-left: 10px;
+}
+.header__btn button {
+  display: inline-flex;
+  /* height: 40px; */
+  padding: 14px 27px 12px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 66px;
+  border: 2px solid var(--w, #fff);
+  background: rgba(255, 255, 255, 0.2);
+  color: var(--w, #fff);
+  font-family: RF Tone;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 18px */
+  /* padding-left: 45px; */
+  margin-left: 10px;
+}
+/* ? header end */
+/* ? section1 start */
+.section1 {
+  margin-top: 50px;
+  /* margin-left: 300px; */
+}
+.secion1__conteiner {
+  display: flex;
+  flex-direction: row;
+}
+.section1__title {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  z-index: 1;
+}
+.section1__title p {
+  color: var(--w, #fff);
+  font-family: RF Tone;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 28px */
+}
+
+h1 {
+  color: var(--w, #fff);
+  font-family: RF Tone;
+  font-size: 68px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 110%; /* 74.8px */
+}
+.section1__im {
+  margin-left: 397px;
+}
+.section1__im img {
+  width: 821px;
+  height: 485px;
+  flex-shrink: 0;
+  position: absolute;
+}
+/* ? section1 end */
+/* ? section2 start */
+.container2 {
+  background-color: #fff;
+  margin-top: 418px;
+}
+.main {
+  display: flex;
+  padding: 0px 135px 0px 135px;
+  justify-content: space-evenly;
+}
+
+.animals {
+  background-color: rgb(244, 240, 234);
+  border-radius: 20px;
+  width: 182px;
+  height: 225px;
+  margin-right: 20px;
+}
+
+.animals:hover {
+  transform: scale(1.05);
+}
+
+.animals_img {
+  margin-left: 12px;
+  margin-top: 55px;
+}
+
+.animals_img-vector {
+  position: absolute;
+  margin-left: 7px;
+  margin-top: 7px;
+  z-index: 0;
+}
+
+.animals_p {
+  color: var(--bl, #292929);
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 700;
+  position: absolute;
+  z-index: 2;
+  margin-left: 10px;
+  margin-top: 21px;
+}
+
+.basket {
+  border-radius: 5px;
+  background: #1951e7;
+  width: 150px;
+  height: 50px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 700;
+  color: white;
+}
+/* ? section2 end */
+/* ? section3 start */
+.section3__title img {
+  width: 101.781px;
+  height: 101.781px;
+
+  flex-shrink: 0;
+}
+/* ? section3 end */
