@@ -1,0 +1,34 @@
+{
+  "Document": [
+    {
+      "Фотография": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR31vsvHzlZ7BsihIvMgjM4Ae8p_cvJGmCqEw&usqp=CAU",
+      "Цена": "21345",
+      "Описание": "sfd;lmkasmf",
+      "id": 1
+    },
+    {
+      "Фотография": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6nFPKAflQDLeApn1aV55e5Ef6pr2si03Hzw&usqp=CAU",
+      "Цена": "21334",
+      "Описание": "3e24r",
+      "id": 3
+    },
+    {
+      "Фотография": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6nFPKAflQDLeApn1aV55e5Ef6pr2si03Hzw&usqp=CAU",
+      "Цена": "2134354",
+      "Описание": "3e24234",
+      "id": 4
+    },
+    {
+      "Фотография": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6nFPKAflQDLeApn1aV55e5Ef6pr2si03Hzw&usqp=CAU",
+      "Цена": "2134354",
+      "Описание": "3e24r35t",
+      "id": 5
+    },
+    {
+      "Фотография": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6nFPKAflQDLeApn1aV55e5Ef6pr2si03Hzw&usqp=CAU",
+      "Цена": "2134354",
+      "Описание": "3e24r35t",
+      "id": 6
+    }
+  ]
+}

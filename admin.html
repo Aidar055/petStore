@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <title>Admin</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body id="body1">
+    <div class="container">
+      <!-- header start -->
+      <header>
+        <div class="header__title__icon">
+          <img src="./img/matroskin_logo 2.png" alt="" />
+          <span
+            >Зоомагазин и груминг салон <br />
+            в Нижневартовске</span
+          >
+        </div>
+        <div class="header__inputBar">
+          <img src="./img/header__search.svg" alt="" />
+          <input type="text" id="headerInp" placeholder="Поиск по каталогу" />
+        </div>
+        <div class="header__contact">
+          <span>+996501304053</span>
+          <img src="./img/header__cib_viber.png" alt="" />
+          <img src="./img/header__VK.png" alt="" />
+          <div class="header__btn">
+            <button id="btnLogin">Login</button>
+          </div>
+        </div>
+      </header>
+    </div>
+    <!-- header end -->
+    <button id="btn1">Добавить</button>
+
+    <div class="block1">
+      <div class="container_input">
+        <input class="input" type="text" placeholder="Фотография" />
+        <input class="input" type="text" placeholder="Цена" />
+        <input class="input" type="text" placeholder="Описание" />
+
+        <div class="field">
+          <button class="btn">Сохранить</button>
+        </div>
+      </div>
+      <ul class="list"></ul>
+      <div id="modal">
+        <div class="editModal">
+          <input class="inpEditLastImg" type="text" />
+          <input class="inpEditPrice" type="text" />
+          <input class="inpEditDescription" type="text" />
+          <button class="saveEdit">Внесите изменения</button>
+        </div>
+      </div>
+    </div>
+    <script src="./js/admin.js"></script>
+  </body>
+</html>
